@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+
+        <style>
+            *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: sans-serif;
+
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(15, 14, 14);    
+    overflow: hidden;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    color: white;
+}
+nav li{
+    display: inline-block;
+    margin: 10px 20px;
+    font-weight: 600;
+}
+.main{
+    width: 100%;
+    display: flex;
+}
+.content{
+    width: 50%;
+    margin-top: 8%;
+    margin-left: 5%;
+    color: white;
+    overflow: hidden;
+}.content h2{
+    font-size: 25px;
+    font-style: italic;
+    color: rgb(101, 16, 182);
+    margin-bottom: 5%;
+}
+.content h3{
+    font-size: 25px;
+    font-style: italic;
+    margin-bottom: 5%;
+    color: blueviolet;
+}
+.content p{
+    font-size: 20px;
+    margin-bottom: 6%;
+    color:rgb(101, 16, 182);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button{
+    padding: 15px 30px;
+    background: transparent;
+    color: white;
+    font-size: 17px;
+    border-radius: 10px;
+    margin-left: 3%;
+    
+}
+button:hover{
+    background: blue;
+}
+
+.image{
+    width: 50%;
+    margin-top: 1%;
+    margin-left: 5%;
+
+}
+@media  screen and (max-width:1200px) {
+    .content{
+        width: 100%;
+        text-align: center;
+    }
+    .image{
+        width: 100%;
+        position: absolute;
+        bottom: -2%;
+        display: flex;
+        justify-content: center;
+    }
+    img {
+        height: 15rem;
+    }
+
+    
+}
+        </style>
+</head>
+<body>
+    <header>
+        <h1>Student's portfolio</h1>
+        <nav>
+            <li>Home</li>
+            <li>About</li> 
+            <li>Contact</li>
+        </nav>
+    </header>
+    <div class="main">
+        <div class="content"> 
+            <h2>Myself <b>Manikavasagar</b></h2>
+            <p>I'm pursuing B.Sc.Computer science final year in Arignar Anna Government
+                Arts college. </p>
+            <button>Resume</button>
+        </div>
+        <div class="image">
+            <img src="C:\Users\ELCOT\Documents\vscode\manic\manic.jpeg"
+            width="300" height="500">
+        </div>    
+        
+    </div>
+    
+</body>
+</html>
